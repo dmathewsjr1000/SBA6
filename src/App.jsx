@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import Form from "./Components/Form"
 import CardDisplay from "./Components/CardDisplay"
+import './App.css'
 
 function App() {
   const [card, setCard] = useState(null)

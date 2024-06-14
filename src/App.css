@@ -1,0 +1,32 @@
+.cardData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.formData {
+    display: flex;
+    flex-direction: column;
+}
+.imgFrame {
+    border: 1px solid black;
+}
+
+img {
+    margin:  0 250px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-image: url('./assets/images.png');
+}
+
+p {
+    font-size: larger;
+    font: bold;
+}

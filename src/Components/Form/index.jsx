@@ -18,7 +18,7 @@ function Form ({ cardsearch }) {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="formData">
             <h1>Magic Card App</h1>
             <input type="text"
             name="searchTerm"
